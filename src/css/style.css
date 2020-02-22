@@ -19,3 +19,18 @@ html {
 body {
     font-size: 1.6rem;
 }
+
+.button {
+    background-color: #f44336;
+    border-radius: 1rem;
+    border: 1px solid #f44336;
+    padding: 1rem;
+    color: white;
+    margin-left: 1rem;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #9c27b0;
+    border: 1px solid #9c27b0;
+}
