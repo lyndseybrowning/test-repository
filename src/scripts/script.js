@@ -31,3 +31,10 @@ function getListItem(video) {
 
     return `<li>${title}. Views: ${Intl.NumberFormat("en-GB").format(video.views)}</li>`
 }
+
+const button = document.querySelector(".button");
+const text = document.querySelector(".text");
+
+button.addEventListener("click", () => {
+    text.classList.toggle("hidden");
+});
