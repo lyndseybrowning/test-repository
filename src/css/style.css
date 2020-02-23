@@ -39,3 +39,24 @@ body {
 .hidden {
     display: none;
 }
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.video {
+    border: 1px solid #eee;
+    padding: 10px;
+    max-width: 200px;
+}
+
+.video img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    outline: 1px solid orange;
+}
